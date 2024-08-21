@@ -1,0 +1,84 @@
+body {
+   font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
+}
+
+img {
+width: 100%;
+}
+
+ul {
+   list-style: none;
+}
+
+.main-img img {
+   height: 100vh;
+   object-fit: cover;
+}
+
+/*Recipe Diary*/
+h2 {
+   text-align: center;
+   margin-top: 50px;
+}
+
+.recipe p {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+/*Recipe img*/
+.recipe-img ul {
+  padding: 0;
+  display: flex;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.btn-recipe {
+   border: solid 1px #2b2a27 ;
+   width: 130px;
+   margin: 0 auto;
+   padding: 15px 60px;
+   height: auto;
+}
+
+.btn-recipe a {
+   text-decoration: none;
+   color: #2b2a27;
+}
+
+.footer-sns {
+   display: flex;
+   justify-content: center;
+}
+
+.footer-sns li {
+   padding: 0;
+   font-size: 10px;
+   margin-top: 70px;
+}
+
+.footer-sns a {
+   color: #2b2a27;
+   padding: 10px;
+   text-align: center;
+}
+
+footer p {
+   font-size: 10px;
+   text-align: center;
+}
+
+/*sp*/
+@media screen and (max-width: 834px) {
+   .recipe-img ul {
+      flex-direction: column;
+      padding: 0;
+   }
+
+   .recipe-img li {
+      height: 500px;
+   }
+
+}
+
